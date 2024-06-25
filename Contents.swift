@@ -107,7 +107,10 @@ var precioDescuento:Double = precioOriginal-(precioOriginal * porcentajeDescuent
 print(precioOriginal)
 print(precioDescuento)
 
-var c:Int = 5
+var c:Int = 20
 var d:Int = 10
 var module = c % d
+print(module)
+print(module)
+print(module)
 print(module)
