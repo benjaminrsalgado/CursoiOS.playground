@@ -91,5 +91,23 @@ print("el porcentaje es \(porcentaje)")
  */
 var peso:Double = 50
 var altura:Double = 1.68
-var formula:Double = peso / (altura * altura)
-print(formula)
+var formulaIMC:Double = peso / (altura * altura)
+print(formulaIMC)
+
+/*
+ 
+ Calculo de Descuento
+ Declara dos variables: precioOriginal y porcentajedeDescuento
+ Calcula el precio despues del descuento utiliznado la formula: PrecioDescuento = PrecioOriginal -(PrecioOriginal *PorcentajedeDescuento / 100)
+ imprime el precio original y el precio con descuento
+ */
+var precioOriginal:Double = 150
+var porcentajeDescuento:Double = 20
+var precioDescuento:Double = precioOriginal-(precioOriginal * porcentajeDescuento / 100)
+print(precioOriginal)
+print(precioDescuento)
+
+var c:Int = 5
+var d:Int = 10
+var module = c % d
+print(module)
